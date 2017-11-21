@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400);
 
 body {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 16px;
   color: #2d3c49;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 16px;
   font-weight: 400;
   min-width: 300px;
 }
@@ -31,15 +31,15 @@ header {
 }
 
 .logo {
+  height: 80px;
   margin: 25px 10px;
   width: 80px;
-  height: 80px;
 }
 
 .user-info {
-  text-align: right;
   margin: 10px 0;
   padding: 0 10px 15px 0;
+  text-align: right;
 }
 
 .name {
@@ -53,43 +53,43 @@ header {
   font-weight: 400;
 }
 
-.container.main-img {
+.main-img {
   margin: 0 0 15px 0;
 }
 
-.projects h2 {
+h2 {
+  color: #7d97ad;
   flex: 0 1 100%;
   font-size: 2.0rem;
   font-weight: 400;
-  color: #7d97ad;
-  text-transform: capitalize;
   margin: 25px 0 15px 15px;
+  text-transform: capitalize;
 }
 
 .project {
-  text-align: center;
-  width: 32%;
   margin: 0 2% 25px 0;
   padding: 0 0 10px 0;
+  text-align: center;
+  width: 32%;
 }
 
 .project:nth-of-type(3n) {
   margin-right: 0;
 }
 
-.project h3 {
+h3 {
   font-size: 2.7rem;
   font-weight: 300;
-  text-transform: uppercase;
   margin: 15px 0 10px 0;
   padding: 0 10px;
+  text-transform: uppercase;
 }
 
-.project span {
+.description {
   padding: 0 10px;
 }
 
-.project a {
+a {
   color: #2d3c49;
   text-decoration: none;
 }
@@ -106,8 +106,8 @@ header {
   }
 
   .project {
-    width: 49%;
     margin: 0 2% 25px 0;
+    width: 49%;
   }
 
   .project:nth-of-type(2n) {
@@ -123,12 +123,12 @@ header {
   }
 
   .user-info {
-    text-align: left;
     padding: 0 0 0 10px;
+    text-align: left;
   }
 
   .logo {
-    margin: 25px 10px 0px 10px;
+    margin: 25px 10px 0 10px;
   }
 
   .project:nth-of-type(3n),
@@ -137,7 +137,7 @@ header {
   }
 
   .project {
-    width: 100%;
     margin: 0 0 30px 0;
+    width: 100%;
   }
 }
